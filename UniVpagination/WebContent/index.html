@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en-US" class="no-js IE7 IE"> <![endif]-->
+<!--[if IE 8]> <html lang="en-US" class="no-js IE8 IE"> <![endif]-->
+<!--[if IE 9]> <html lang="en-US" class="no-js IE9 IE"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="en-US" class="no-js"><!--<![endif]-->
+	<head>
+		<!-- title -->
+		<title>UniV-pagination</title>
+
+		<!-- Main_meta_&_mobile_meta -->
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="shortcut icon" href="assets/img/#.png"/><!-- favicon -->
+		
+		<link rel="stylesheet" type="text/css" href="font-awesome.css"><!-- font awesome css -->
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"><!-- bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="bootstrap-theme.css"><!-- bootstrap supporting css -->
+		<link rel="stylesheet" type="text/css" href="style.css"><!-- common css -->
+		<link rel="stylesheet" type="text/css" href="univ-pagination.css"><!-- common css -->
+    	<!--[if lt IE 9]>
+			<script type="text/javascript" src="assets/js/html5shiv.js"></script>
+			<script type="text/javascript" src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	 <!-- ticket management start--> 
+   <div class="col-md-12" id="navDiv6">
+   <!-- <input type="hidden" name="hidPagination" id="hidPagination" value="0" /> -->
+
+					<div class="block-cover">
+						<div class="block-head">
+							<h3>Demo table 1</h3>
+						</div>
+						<div class="block-body">
+                        <table class="table table-hover nbt-table" id="tblMain">
+								<thead>
+									<tr>
+										<th><label class="nbt-checkbox"><input type="checkbox"><span></span></label></th>
+										<th>Source</th>
+										<th>Status</th>
+										<th>Priority</th>
+										<th>Assigned To</th>
+										<th>Subject</th>
+										<th>Category</th>
+										<th>Closed Date</th>
+										<th>Closed By</th>
+										<th>Action</th>
+									</tr>
+								</thead>
+								<tbody id="tbodyMain">
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Dorange">High</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Morange">Medium</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-create-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						 
+							<!-- <div class="pull-right nbt-peger">
+								<ul class="pagination">
+									<li>
+									  	<a href="javascript:void(0);" aria-label="Previous">
+									    	<span aria-hidden="true">&laquo;</span>
+									  	</a>
+									</li>
+									<li class="active"><a href="javascript:void(0);">1</a></li>
+									<li><a href="javascript:void(0);">2</a></li>
+									<li><a href="javascript:void(0);">3</a></li>
+									<li><a href="javascript:void(0);">4</a></li>
+									<li><a href="javascript:void(0);">5</a></li>
+									<li>
+									  	<a href="#" aria-label="Next">
+									    	<span aria-hidden="true">&raquo;</span>
+									  	</a>
+									</li>
+								</ul>
+							</div> -->
+							
+						</div>
+					</div>
+				</div>
+  
+ <!--ticket management end--> 
+ 
+ 	 <!-- ticket management2 start--> 
+   <div class="col-md-12" id="navDiv6">
+   <!-- <input type="hidden" name="hidPagination" id="hidPagination" value="0" /> -->
+
+					<div class="block-cover">
+						<div class="block-head">
+							<h3>Demo Table 2</h3>
+						</div>
+						<div class="block-body">
+						 <table class="table table-hover nbt-table" id="tblMain2">
+								<thead>
+									<tr>
+										<th><label class="nbt-checkbox"><input type="checkbox"><span></span></label></th>
+										<th>Source</th>
+										<th>Status</th>
+										<th>Priority</th>
+										<th>Assigned To</th>
+										<th>Subject</th>
+										<th>Category</th>
+										<th>Closed Date</th>
+										<th>Closed By</th>
+										<th>Action</th>
+									</tr>
+								</thead>
+								<tbody id="tbodyMain2">
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Dorange">High</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Morange">Medium</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-mng-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td><label class="nbt-checkbox"><input type="checkbox"><span></span></label></td>
+										<td><i class="fa fa-facebook-official" aria-hidden="true"></i></td>
+										<td><span class="btn nbt-red">Closed</span></td>
+										<td><span class="btn Lorange">Low</span></td>
+										<td>Nicolas</td>
+										<td>Possible....</td>
+										<td>Marketing....</td>
+										<td>28-02-2016</td>
+										<td>Nicolas</td>
+										<td>
+											<a href="javascript:void(0);" style="margin-right:10px;" data-toggle="modal" data-target="#tkt-create-modal">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" data-toggle="modal" data-target="#compose-mailmodal">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i></a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+  
+ <!--ticket management2 end-->
+	
+	</body>
+	<script type="text/javascript" src="jquery.min.js"></script><!-- Main_lib_script -->
+	<script type="text/javascript" src="bootstrap.js"></script><!-- bootstrap js -->
+	<!-- bootstrap plugin css -->
+	<script type="text/javascript"  src="univ-pagination.js"></script>
+	<script type="text/javascript"  src="utility.js"></script>
+	<script src="common-methods.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#tblMain').univpagination({
+			tblName: 'tblMain',
+			tBodyName: 'tbodyMain',
+			maxRows: 4,
+			cssClass: 'pull-right',
+			uniqueIdentifier: '_SL1',
+			type:'default'
+		});
+		
+		$('#tblMain2').univpagination({
+			tblName: 'tblMain2',
+			tBodyName: 'tbodyMain2',
+			maxRows: 4,
+			cssClass: 'pull-right',
+			uniqueIdentifier: '_SL',
+			type:'minimal'
+		});
+	
+	});
+
+	</script>
+</html>

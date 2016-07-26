@@ -1,0 +1,12 @@
+.dotPagesAnchor {
+	background-color: #efefef;
+	border-bottom: 4px solid #cad336 !important;
+	border-color: transparent transparent #cad336;
+	border-radius: 50%;
+	color: #565656;
+	cursor: pointer;
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	padding-bottom: 2px;
+	z-index: 2;
+}
